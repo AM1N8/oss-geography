@@ -1,0 +1,469 @@
+{
+  "completed_profiles": [
+    "all",
+    "core"
+  ],
+  "config": {
+    "download": {
+      "attempts": 3,
+      "timeout": 60
+    },
+    "github": {
+      "core": [
+        "developers",
+        "economy_collaborators",
+        "git_pushes"
+      ],
+      "optional": [
+        "languages",
+        "repositories",
+        "organizations",
+        "licenses",
+        "topics"
+      ],
+      "ref": "main",
+      "repository": "github/innovationgraph",
+      "support": [
+        "datapackage.json",
+        "docs/datasheet.md",
+        "LICENSE.md",
+        "README.md",
+        "CITATION.cff"
+      ],
+      "terms": "https://github.com/github/innovationgraph/blob/main/LICENSE.md"
+    },
+    "natural_earth": {
+      "path": "geojson/ne_10m_admin_0_countries.geojson",
+      "ref": "master",
+      "repository": "nvkelso/natural-earth-vector",
+      "support": [
+        "VERSION",
+        "README.md",
+        "LICENSE.md"
+      ],
+      "terms": "https://www.naturalearthdata.com/about/terms-of-use/"
+    },
+    "study": {
+      "end_year": 2025,
+      "start_year": 2020
+    },
+    "world_bank": {
+      "base_url": "https://api.worldbank.org/v2",
+      "indicator": "SP.POP.TOTL",
+      "per_page": 500,
+      "terms": "https://www.worldbank.org/en/about/legal/terms-of-use-for-datasets"
+    }
+  },
+  "config_sha256": "80df28eb9aa53152f929e6988dedaff30c10096dd4b0de5959ed82eb3bb484c4",
+  "created_at": "2026-10-24T22:56:37.714805+00:00",
+  "files": {
+    "github:CITATION.cff": {
+      "api_metadata": null,
+      "final_url": "https://raw.githubusercontent.com/github/innovationgraph/078fb62ee4395d321bec9f4f06694cca68f6b6cb/CITATION.cff",
+      "path": "data/raw/github/2026-10-24T225637.714765Z-d1269b80/CITATION.cff",
+      "provider": "github",
+      "requested_url": "https://raw.githubusercontent.com/github/innovationgraph/078fb62ee4395d321bec9f4f06694cca68f6b6cb/CITATION.cff",
+      "retrieved_at": "2026-10-24T22:56:41.640170+00:00",
+      "revision": "078fb62ee4395d321bec9f4f06694cca68f6b6cb",
+      "sha256": "cd993aadcffb5d14eca183fb4e43e4a72d260c5e6a4ae26afb229a279df9cba4",
+      "size": 435,
+      "source_id": "CITATION.cff",
+      "terms": "https://github.com/github/innovationgraph/blob/main/LICENSE.md"
+    },
+    "github:LICENSE.md": {
+      "api_metadata": null,
+      "final_url": "https://raw.githubusercontent.com/github/innovationgraph/078fb62ee4395d321bec9f4f06694cca68f6b6cb/LICENSE.md",
+      "path": "data/raw/github/2026-10-24T225637.714765Z-d1269b80/LICENSE.md",
+      "provider": "github",
+      "requested_url": "https://raw.githubusercontent.com/github/innovationgraph/078fb62ee4395d321bec9f4f06694cca68f6b6cb/LICENSE.md",
+      "retrieved_at": "2026-10-24T22:56:41.026209+00:00",
+      "revision": "078fb62ee4395d321bec9f4f06694cca68f6b6cb",
+      "sha256": "e284d020a7562617d834aec6c981895f0ee55752d62e9d4de07166a388efae79",
+      "size": 6960,
+      "source_id": "LICENSE.md",
+      "terms": "https://github.com/github/innovationgraph/blob/main/LICENSE.md"
+    },
+    "github:README.md": {
+      "api_metadata": null,
+      "final_url": "https://raw.githubusercontent.com/github/innovationgraph/078fb62ee4395d321bec9f4f06694cca68f6b6cb/README.md",
+      "path": "data/raw/github/2026-10-24T225637.714765Z-d1269b80/README.md",
+      "provider": "github",
+      "requested_url": "https://raw.githubusercontent.com/github/innovationgraph/078fb62ee4395d321bec9f4f06694cca68f6b6cb/README.md",
+      "retrieved_at": "2026-10-24T22:56:41.333483+00:00",
+      "revision": "078fb62ee4395d321bec9f4f06694cca68f6b6cb",
+      "sha256": "7cc4186de1f42ea3b0a1db953a5aa7f4ef94a334ea4d39a34675c9687fd52aea",
+      "size": 5016,
+      "source_id": "README.md",
+      "terms": "https://github.com/github/innovationgraph/blob/main/LICENSE.md"
+    },
+    "github:datapackage.json": {
+      "api_metadata": null,
+      "final_url": "https://raw.githubusercontent.com/github/innovationgraph/078fb62ee4395d321bec9f4f06694cca68f6b6cb/datapackage.json",
+      "path": "data/raw/github/2026-10-24T225637.714765Z-d1269b80/datapackage.json",
+      "provider": "github",
+      "requested_url": "https://raw.githubusercontent.com/github/innovationgraph/078fb62ee4395d321bec9f4f06694cca68f6b6cb/datapackage.json",
+      "retrieved_at": "2026-10-24T22:56:38.354555+00:00",
+      "revision": "078fb62ee4395d321bec9f4f06694cca68f6b6cb",
+      "sha256": "1158f938af951209d97aecf236d3d7bcdfbee27eee5fd24b1a00e1a2e2a452c4",
+      "size": 6748,
+      "source_id": "datapackage.json",
+      "terms": "https://github.com/github/innovationgraph/blob/main/LICENSE.md"
+    },
+    "github:developers": {
+      "api_metadata": null,
+      "final_url": "https://raw.githubusercontent.com/github/innovationgraph/078fb62ee4395d321bec9f4f06694cca68f6b6cb/data/developers.csv",
+      "path": "data/raw/github/2026-10-24T225637.714765Z-d1269b80/data/developers.csv",
+      "provider": "github",
+      "requested_url": "https://raw.githubusercontent.com/github/innovationgraph/078fb62ee4395d321bec9f4f06694cca68f6b6cb/data/developers.csv",
+      "retrieved_at": "2026-10-24T22:56:38.955915+00:00",
+      "revision": "078fb62ee4395d321bec9f4f06694cca68f6b6cb",
+      "sha256": "4d66d50024066cbb85fec990f75bdb9a736e89dc998af8fbca6e946c14e56fd1",
+      "size": 90282,
+      "source_id": "developers",
+      "terms": "https://github.com/github/innovationgraph/blob/main/LICENSE.md"
+    },
+    "github:distinct_dataset_counts_by_quarter_by_economy": {
+      "api_metadata": null,
+      "final_url": "https://raw.githubusercontent.com/github/innovationgraph/078fb62ee4395d321bec9f4f06694cca68f6b6cb/representativeness_data/distinct_dataset_counts_by_quarter_by_economy.csv",
+      "path": "data/raw/github/2026-10-24T225637.714765Z-d1269b80/representativeness_data/distinct_dataset_counts_by_quarter_by_economy.csv",
+      "provider": "github",
+      "requested_url": "https://raw.githubusercontent.com/github/innovationgraph/078fb62ee4395d321bec9f4f06694cca68f6b6cb/representativeness_data/distinct_dataset_counts_by_quarter_by_economy.csv",
+      "retrieved_at": "2026-10-24T22:56:40.131754+00:00",
+      "revision": "078fb62ee4395d321bec9f4f06694cca68f6b6cb",
+      "sha256": "c2ef30a6274c3a2746fb79b028c834743b0139f73de8f40fa9582e5f24358f6e",
+      "size": 68368,
+      "source_id": "distinct_dataset_counts_by_quarter_by_economy",
+      "terms": "https://github.com/github/innovationgraph/blob/main/LICENSE.md"
+    },
+    "github:distinct_economy_counts_by_quarter_by_dataset": {
+      "api_metadata": null,
+      "final_url": "https://raw.githubusercontent.com/github/innovationgraph/078fb62ee4395d321bec9f4f06694cca68f6b6cb/representativeness_data/distinct_economy_counts_by_quarter_by_dataset.csv",
+      "path": "data/raw/github/2026-10-24T225637.714765Z-d1269b80/representativeness_data/distinct_economy_counts_by_quarter_by_dataset.csv",
+      "provider": "github",
+      "requested_url": "https://raw.githubusercontent.com/github/innovationgraph/078fb62ee4395d321bec9f4f06694cca68f6b6cb/representativeness_data/distinct_economy_counts_by_quarter_by_dataset.csv",
+      "retrieved_at": "2026-10-24T22:56:40.402629+00:00",
+      "revision": "078fb62ee4395d321bec9f4f06694cca68f6b6cb",
+      "sha256": "b2bd603ab8449e236e94004ea341f24fc5afa1186e7b78ce6691a15c17dc50a4",
+      "size": 4660,
+      "source_id": "distinct_economy_counts_by_quarter_by_dataset",
+      "terms": "https://github.com/github/innovationgraph/blob/main/LICENSE.md"
+    },
+    "github:docs/datasheet.md": {
+      "api_metadata": null,
+      "final_url": "https://raw.githubusercontent.com/github/innovationgraph/078fb62ee4395d321bec9f4f06694cca68f6b6cb/docs/datasheet.md",
+      "path": "data/raw/github/2026-10-24T225637.714765Z-d1269b80/docs/datasheet.md",
+      "provider": "github",
+      "requested_url": "https://raw.githubusercontent.com/github/innovationgraph/078fb62ee4395d321bec9f4f06694cca68f6b6cb/docs/datasheet.md",
+      "retrieved_at": "2026-10-24T22:56:40.718988+00:00",
+      "revision": "078fb62ee4395d321bec9f4f06694cca68f6b6cb",
+      "sha256": "7d26f221a71c9079ea70d05edcf95d58807c3f29c3eed69f9d4e5bf67874c0c7",
+      "size": 12450,
+      "source_id": "docs/datasheet.md",
+      "terms": "https://github.com/github/innovationgraph/blob/main/LICENSE.md"
+    },
+    "github:economy_collaborators": {
+      "api_metadata": null,
+      "final_url": "https://raw.githubusercontent.com/github/innovationgraph/078fb62ee4395d321bec9f4f06694cca68f6b6cb/data/economy_collaborators.csv",
+      "path": "data/raw/github/2026-10-24T225637.714765Z-d1269b80/data/economy_collaborators.csv",
+      "provider": "github",
+      "requested_url": "https://raw.githubusercontent.com/github/innovationgraph/078fb62ee4395d321bec9f4f06694cca68f6b6cb/data/economy_collaborators.csv",
+      "retrieved_at": "2026-10-24T22:56:39.403195+00:00",
+      "revision": "078fb62ee4395d321bec9f4f06694cca68f6b6cb",
+      "sha256": "50444902242f1a0e23a188942746707f3c749eee4308c4a8da37d485b1579e12",
+      "size": 1426286,
+      "source_id": "economy_collaborators",
+      "terms": "https://github.com/github/innovationgraph/blob/main/LICENSE.md"
+    },
+    "github:git_pushes": {
+      "api_metadata": null,
+      "final_url": "https://raw.githubusercontent.com/github/innovationgraph/078fb62ee4395d321bec9f4f06694cca68f6b6cb/data/git_pushes.csv",
+      "path": "data/raw/github/2026-10-24T225637.714765Z-d1269b80/data/git_pushes.csv",
+      "provider": "github",
+      "requested_url": "https://raw.githubusercontent.com/github/innovationgraph/078fb62ee4395d321bec9f4f06694cca68f6b6cb/data/git_pushes.csv",
+      "retrieved_at": "2026-10-24T22:56:39.730343+00:00",
+      "revision": "078fb62ee4395d321bec9f4f06694cca68f6b6cb",
+      "sha256": "8d8525632080b21e1b39cfd2fbd0abdb898461ec9ee7e59da61977749a296d3a",
+      "size": 72294,
+      "source_id": "git_pushes",
+      "terms": "https://github.com/github/innovationgraph/blob/main/LICENSE.md"
+    },
+    "github:languages": {
+      "api_metadata": null,
+      "final_url": "https://raw.githubusercontent.com/github/innovationgraph/078fb62ee4395d321bec9f4f06694cca68f6b6cb/data/languages.csv",
+      "path": "data/raw/github/2026-10-24T225637.714765Z-d1269b80/data/languages.csv",
+      "provider": "github",
+      "requested_url": "https://raw.githubusercontent.com/github/innovationgraph/078fb62ee4395d321bec9f4f06694cca68f6b6cb/data/languages.csv",
+      "retrieved_at": "2026-10-24T22:59:29.395209+00:00",
+      "revision": "078fb62ee4395d321bec9f4f06694cca68f6b6cb",
+      "sha256": "795f7b9da010161544ed50359e2bce9a9c8757831c25f4cb939dbf0569215dc2",
+      "size": 5832978,
+      "source_id": "languages",
+      "terms": "https://github.com/github/innovationgraph/blob/main/LICENSE.md"
+    },
+    "github:licenses": {
+      "api_metadata": null,
+      "final_url": "https://raw.githubusercontent.com/github/innovationgraph/078fb62ee4395d321bec9f4f06694cca68f6b6cb/data/licenses.csv",
+      "path": "data/raw/github/2026-10-24T225637.714765Z-d1269b80/data/licenses.csv",
+      "provider": "github",
+      "requested_url": "https://raw.githubusercontent.com/github/innovationgraph/078fb62ee4395d321bec9f4f06694cca68f6b6cb/data/licenses.csv",
+      "retrieved_at": "2026-10-24T22:59:30.366926+00:00",
+      "revision": "078fb62ee4395d321bec9f4f06694cca68f6b6cb",
+      "sha256": "280750b798750c398869c7d68da1fa5ca5058cc2f5c605b4cc2a9501f75414f0",
+      "size": 500506,
+      "source_id": "licenses",
+      "terms": "https://github.com/github/innovationgraph/blob/main/LICENSE.md"
+    },
+    "github:organizations": {
+      "api_metadata": null,
+      "final_url": "https://raw.githubusercontent.com/github/innovationgraph/078fb62ee4395d321bec9f4f06694cca68f6b6cb/data/organizations.csv",
+      "path": "data/raw/github/2026-10-24T225637.714765Z-d1269b80/data/organizations.csv",
+      "provider": "github",
+      "requested_url": "https://raw.githubusercontent.com/github/innovationgraph/078fb62ee4395d321bec9f4f06694cca68f6b6cb/data/organizations.csv",
+      "retrieved_at": "2026-10-24T22:59:30.014861+00:00",
+      "revision": "078fb62ee4395d321bec9f4f06694cca68f6b6cb",
+      "sha256": "756ca03e5b6edcc81eafffa66f6d3a95f95d80e1fdad89f2f3ae8e7e5e8a88d6",
+      "size": 69170,
+      "source_id": "organizations",
+      "terms": "https://github.com/github/innovationgraph/blob/main/LICENSE.md"
+    },
+    "github:repositories": {
+      "api_metadata": null,
+      "final_url": "https://raw.githubusercontent.com/github/innovationgraph/078fb62ee4395d321bec9f4f06694cca68f6b6cb/data/repositories.csv",
+      "path": "data/raw/github/2026-10-24T225637.714765Z-d1269b80/data/repositories.csv",
+      "provider": "github",
+      "requested_url": "https://raw.githubusercontent.com/github/innovationgraph/078fb62ee4395d321bec9f4f06694cca68f6b6cb/data/repositories.csv",
+      "retrieved_at": "2026-10-24T22:59:29.704688+00:00",
+      "revision": "078fb62ee4395d321bec9f4f06694cca68f6b6cb",
+      "sha256": "ccff96ee8774b9a3369ab552cb2b568b135b8bd5b818e2678071731ec34b8613",
+      "size": 91229,
+      "source_id": "repositories",
+      "terms": "https://github.com/github/innovationgraph/blob/main/LICENSE.md"
+    },
+    "github:revision": {
+      "api_metadata": null,
+      "final_url": "https://api.github.com/repos/github/innovationgraph/commits/main",
+      "path": "data/raw/github/2026-10-24T225637.714765Z-d1269b80/_revision.json",
+      "provider": "github",
+      "requested_url": "https://api.github.com/repos/github/innovationgraph/commits/main",
+      "retrieved_at": "2026-10-24T22:56:38.049406+00:00",
+      "revision": "078fb62ee4395d321bec9f4f06694cca68f6b6cb",
+      "sha256": "c11a76ce22a05759be8fbbee8a70b2abf71218c087f8f7a7b4b6fd567b88bf67",
+      "size": 6064,
+      "source_id": "revision",
+      "terms": "https://github.com/github/innovationgraph/blob/main/LICENSE.md"
+    },
+    "github:topics": {
+      "api_metadata": null,
+      "final_url": "https://raw.githubusercontent.com/github/innovationgraph/078fb62ee4395d321bec9f4f06694cca68f6b6cb/data/topics.csv",
+      "path": "data/raw/github/2026-10-24T225637.714765Z-d1269b80/data/topics.csv",
+      "provider": "github",
+      "requested_url": "https://raw.githubusercontent.com/github/innovationgraph/078fb62ee4395d321bec9f4f06694cca68f6b6cb/data/topics.csv",
+      "retrieved_at": "2026-10-24T22:59:30.915280+00:00",
+      "revision": "078fb62ee4395d321bec9f4f06694cca68f6b6cb",
+      "sha256": "cb9602d0a63a1fa9bc0b54cf6b605fbf670dd181eee4e0b3480f7bae6552e3cd",
+      "size": 1892445,
+      "source_id": "topics",
+      "terms": "https://github.com/github/innovationgraph/blob/main/LICENSE.md"
+    },
+    "github:tree": {
+      "api_metadata": null,
+      "final_url": "https://api.github.com/repos/github/innovationgraph/git/trees/078fb62ee4395d321bec9f4f06694cca68f6b6cb?recursive=1",
+      "path": "data/raw/github/2026-10-24T225637.714765Z-d1269b80/_tree.json",
+      "provider": "github",
+      "requested_url": "https://api.github.com/repos/github/innovationgraph/git/trees/078fb62ee4395d321bec9f4f06694cca68f6b6cb?recursive=1",
+      "retrieved_at": "2026-10-24T22:56:38.671646+00:00",
+      "revision": "078fb62ee4395d321bec9f4f06694cca68f6b6cb",
+      "sha256": "68a70738938fefa8ad80a7ea34f2765023b6de917d3f9916b326adc95fbf0598",
+      "size": 8607,
+      "source_id": "tree",
+      "terms": "https://github.com/github/innovationgraph/blob/main/LICENSE.md"
+    },
+    "natural_earth:LICENSE.md": {
+      "api_metadata": null,
+      "final_url": "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/ca96624a56bd078437bca8184e78163e5039ad19/LICENSE.md",
+      "path": "data/raw/natural_earth/2026-10-24T225637.714765Z-d1269b80/LICENSE.md",
+      "provider": "natural_earth",
+      "requested_url": "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/ca96624a56bd078437bca8184e78163e5039ad19/LICENSE.md",
+      "retrieved_at": "2026-10-24T22:56:45.124929+00:00",
+      "revision": "ca96624a56bd078437bca8184e78163e5039ad19",
+      "sha256": "2631b5b39b6d1acc56de75235109b5af2dbb4b0ac5a127b6f06185977247fd4b",
+      "size": 4636,
+      "source_id": "LICENSE.md",
+      "terms": "https://www.naturalearthdata.com/about/terms-of-use/"
+    },
+    "natural_earth:README.md": {
+      "api_metadata": null,
+      "final_url": "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/ca96624a56bd078437bca8184e78163e5039ad19/README.md",
+      "path": "data/raw/natural_earth/2026-10-24T225637.714765Z-d1269b80/README.md",
+      "provider": "natural_earth",
+      "requested_url": "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/ca96624a56bd078437bca8184e78163e5039ad19/README.md",
+      "retrieved_at": "2026-10-24T22:56:44.815327+00:00",
+      "revision": "ca96624a56bd078437bca8184e78163e5039ad19",
+      "sha256": "28b7c031e45c88d7ce20b7782373aaac378f459e9460001dadc8cfd824c3173b",
+      "size": 4692,
+      "source_id": "README.md",
+      "terms": "https://www.naturalearthdata.com/about/terms-of-use/"
+    },
+    "natural_earth:VERSION": {
+      "api_metadata": null,
+      "final_url": "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/ca96624a56bd078437bca8184e78163e5039ad19/VERSION",
+      "path": "data/raw/natural_earth/2026-10-24T225637.714765Z-d1269b80/VERSION",
+      "provider": "natural_earth",
+      "requested_url": "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/ca96624a56bd078437bca8184e78163e5039ad19/VERSION",
+      "retrieved_at": "2026-10-24T22:56:44.497862+00:00",
+      "revision": "ca96624a56bd078437bca8184e78163e5039ad19",
+      "sha256": "fa43123c5e3a802287a821ea65b4daeeb20ed63cfdc82a67c3dfa4aad0173280",
+      "size": 10,
+      "source_id": "VERSION",
+      "terms": "https://www.naturalearthdata.com/about/terms-of-use/"
+    },
+    "natural_earth:geojson/ne_10m_admin_0_countries.geojson": {
+      "api_metadata": null,
+      "final_url": "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/ca96624a56bd078437bca8184e78163e5039ad19/geojson/ne_10m_admin_0_countries.geojson",
+      "path": "data/raw/natural_earth/2026-10-24T225637.714765Z-d1269b80/geojson/ne_10m_admin_0_countries.geojson",
+      "provider": "natural_earth",
+      "requested_url": "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/ca96624a56bd078437bca8184e78163e5039ad19/geojson/ne_10m_admin_0_countries.geojson",
+      "retrieved_at": "2026-10-24T22:56:44.244673+00:00",
+      "revision": "ca96624a56bd078437bca8184e78163e5039ad19",
+      "sha256": "239eec57ac17f100a11e2536cffc56752c318b50ae765b0918ff7aab4ce8f255",
+      "size": 13287234,
+      "source_id": "geojson/ne_10m_admin_0_countries.geojson",
+      "terms": "https://www.naturalearthdata.com/about/terms-of-use/"
+    },
+    "natural_earth:revision": {
+      "api_metadata": null,
+      "final_url": "https://api.github.com/repos/nvkelso/natural-earth-vector/commits/master",
+      "path": "data/raw/natural_earth/2026-10-24T225637.714765Z-d1269b80/_revision.json",
+      "provider": "natural_earth",
+      "requested_url": "https://api.github.com/repos/nvkelso/natural-earth-vector/commits/master",
+      "retrieved_at": "2026-10-24T22:56:42.051070+00:00",
+      "revision": "ca96624a56bd078437bca8184e78163e5039ad19",
+      "sha256": "81fd7788b19d66f424626be7ac67db311aa1ac78a2802acb97da46d514d70f4e",
+      "size": 4226,
+      "source_id": "revision",
+      "terms": "https://www.naturalearthdata.com/about/terms-of-use/"
+    },
+    "world_bank:economies/page-0001": {
+      "api_metadata": {
+        "page": 1,
+        "pages": 1,
+        "per_page": "500",
+        "total": 296
+      },
+      "final_url": "https://api.worldbank.org/v2/country?format=json&per_page=500&page=1",
+      "path": "data/raw/world_bank/2026-10-24T225637.714765Z-d1269b80/economies/page-0001.json",
+      "provider": "world_bank",
+      "requested_url": "https://api.worldbank.org/v2/country?format=json&per_page=500&page=1",
+      "retrieved_at": "2026-10-24T22:56:45.340331+00:00",
+      "revision": null,
+      "sha256": "ba006d57b1fb243ff5a6d13a9fd1283e0a758ab6750cc4159eebbd454a98b462",
+      "size": 113954,
+      "source_id": "economies/page-0001",
+      "terms": "https://www.worldbank.org/en/about/legal/terms-of-use-for-datasets"
+    },
+    "world_bank:indicator/page-0001": {
+      "api_metadata": {
+        "page": 1,
+        "pages": 1,
+        "per_page": "500",
+        "total": 1
+      },
+      "final_url": "https://api.worldbank.org/v2/indicator/SP.POP.TOTL?format=json&per_page=500&page=1",
+      "path": "data/raw/world_bank/2026-10-24T225637.714765Z-d1269b80/indicator/page-0001.json",
+      "provider": "world_bank",
+      "requested_url": "https://api.worldbank.org/v2/indicator/SP.POP.TOTL?format=json&per_page=500&page=1",
+      "retrieved_at": "2026-10-24T22:56:45.739565+00:00",
+      "revision": null,
+      "sha256": "41b37ed027c7ff123cb8782391d3454e861153790d9e712eda2f217695ad6c90",
+      "size": 1100,
+      "source_id": "indicator/page-0001",
+      "terms": "https://www.worldbank.org/en/about/legal/terms-of-use-for-datasets"
+    },
+    "world_bank:population/page-0001": {
+      "api_metadata": {
+        "lastupdated": "2026-10-08",
+        "page": 1,
+        "pages": 4,
+        "per_page": 500,
+        "sourceid": "2",
+        "total": 1596
+      },
+      "final_url": "https://api.worldbank.org/v2/country/all/indicator/SP.POP.TOTL?date=2020%3A2025&source=2&format=json&per_page=500&page=1",
+      "path": "data/raw/world_bank/2026-10-24T225637.714765Z-d1269b80/population/page-0001.json",
+      "provider": "world_bank",
+      "requested_url": "https://api.worldbank.org/v2/country/all/indicator/SP.POP.TOTL?date=2020%3A2025&source=2&format=json&per_page=500&page=1",
+      "retrieved_at": "2026-10-24T22:56:46.255903+00:00",
+      "revision": null,
+      "sha256": "be29e86ccb0b156beedce1bbca393b44a2b57b63fdc1618b4ce94ba22ca64e31",
+      "size": 104231,
+      "source_id": "population/page-0001",
+      "terms": "https://www.worldbank.org/en/about/legal/terms-of-use-for-datasets"
+    },
+    "world_bank:population/page-0002": {
+      "api_metadata": {
+        "lastupdated": "2026-10-08",
+        "page": 2,
+        "pages": 4,
+        "per_page": 500,
+        "sourceid": "2",
+        "total": 1596
+      },
+      "final_url": "https://api.worldbank.org/v2/country/all/indicator/SP.POP.TOTL?date=2020%3A2025&source=2&format=json&per_page=500&page=2",
+      "path": "data/raw/world_bank/2026-10-24T225637.714765Z-d1269b80/population/page-0002.json",
+      "provider": "world_bank",
+      "requested_url": "https://api.worldbank.org/v2/country/all/indicator/SP.POP.TOTL?date=2020%3A2025&source=2&format=json&per_page=500&page=2",
+      "retrieved_at": "2026-10-24T22:56:46.957476+00:00",
+      "revision": null,
+      "sha256": "62f7ae70c8ddea3ac59de87db17a881854ef0c7b9d99db62a9d57cfd212d35ca",
+      "size": 98654,
+      "source_id": "population/page-0002",
+      "terms": "https://www.worldbank.org/en/about/legal/terms-of-use-for-datasets"
+    },
+    "world_bank:population/page-0003": {
+      "api_metadata": {
+        "lastupdated": "2026-10-08",
+        "page": 3,
+        "pages": 4,
+        "per_page": 500,
+        "sourceid": "2",
+        "total": 1596
+      },
+      "final_url": "https://api.worldbank.org/v2/country/all/indicator/SP.POP.TOTL?date=2020%3A2025&source=2&format=json&per_page=500&page=3",
+      "path": "data/raw/world_bank/2026-10-24T225637.714765Z-d1269b80/population/page-0003.json",
+      "provider": "world_bank",
+      "requested_url": "https://api.worldbank.org/v2/country/all/indicator/SP.POP.TOTL?date=2020%3A2025&source=2&format=json&per_page=500&page=3",
+      "retrieved_at": "2026-10-24T22:56:47.523395+00:00",
+      "revision": null,
+      "sha256": "324afa25be35e3b060c6be73a890feedd6342afa66841754334c05b4bf688645",
+      "size": 99338,
+      "source_id": "population/page-0003",
+      "terms": "https://www.worldbank.org/en/about/legal/terms-of-use-for-datasets"
+    },
+    "world_bank:population/page-0004": {
+      "api_metadata": {
+        "lastupdated": "2026-10-08",
+        "page": 4,
+        "pages": 4,
+        "per_page": 500,
+        "sourceid": "2",
+        "total": 1596
+      },
+      "final_url": "https://api.worldbank.org/v2/country/all/indicator/SP.POP.TOTL?date=2020%3A2025&source=2&format=json&per_page=500&page=4",
+      "path": "data/raw/world_bank/2026-10-24T225637.714765Z-d1269b80/population/page-0004.json",
+      "provider": "world_bank",
+      "requested_url": "https://api.worldbank.org/v2/country/all/indicator/SP.POP.TOTL?date=2020%3A2025&source=2&format=json&per_page=500&page=4",
+      "retrieved_at": "2026-10-24T22:56:47.991694+00:00",
+      "revision": null,
+      "sha256": "4dacb3822877c08c173d13b6f5c9ff83a2c3a12b23bd13adadb331e87a8fb60a",
+      "size": 19237,
+      "source_id": "population/page-0004",
+      "terms": "https://www.worldbank.org/en/about/legal/terms-of-use-for-datasets"
+    }
+  },
+  "format_version": 1,
+  "revisions": {
+    "github": "078fb62ee4395d321bec9f4f06694cca68f6b6cb",
+    "natural_earth": "ca96624a56bd078437bca8184e78163e5039ad19"
+  },
+  "snapshot": "2026-10-24T225637.714765Z-d1269b80"
+}

@@ -1,0 +1,28 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# Instantanés et tables volumineuses ; les petits manifestes restent versionnables.
+/data/raw/*
+!/data/raw/README.md
+/data/processed/*
+!/data/processed/README.md
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+*.part
+*.qgz
+*.qgd
+*.gpkg
+.ipynb_checkpoints/
+*.tar.gz
+*.zip

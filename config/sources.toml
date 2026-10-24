@@ -1,0 +1,28 @@
+[study]
+start_year = 2020
+end_year = 2025
+
+[download]
+timeout = 60
+attempts = 3
+
+[github]
+repository = "github/innovationgraph"
+ref = "main"
+core = ["developers", "economy_collaborators", "git_pushes"]
+optional = ["languages", "repositories", "organizations", "licenses", "topics"]
+support = ["datapackage.json", "docs/datasheet.md", "LICENSE.md", "README.md", "CITATION.cff"]
+terms = "https://github.com/github/innovationgraph/blob/main/LICENSE.md"
+
+[natural_earth]
+repository = "nvkelso/natural-earth-vector"
+ref = "master"
+path = "geojson/ne_10m_admin_0_countries.geojson"
+support = ["VERSION", "README.md", "LICENSE.md"]
+terms = "https://www.naturalearthdata.com/about/terms-of-use/"
+
+[world_bank]
+base_url = "https://api.worldbank.org/v2"
+indicator = "SP.POP.TOTL"
+per_page = 500
+terms = "https://www.worldbank.org/en/about/legal/terms-of-use-for-datasets"
